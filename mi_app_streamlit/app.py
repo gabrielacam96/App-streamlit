@@ -1,6 +1,6 @@
 import streamlit as st
 from modules.utils import cargar_datos
-import numpy as np
+
 st.title('Demo de estructura')
 df = cargar_datos('data/ventas.csv')
 st.dataframe(df)
