@@ -1,4 +1,6 @@
 import streamlit as st
+import sys, os
+sys.path.append(os.path.dirname(__file__)) 
 from modules.utils import cargar_datos
 
 st.title('Demo de estructura')
